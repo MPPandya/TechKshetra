@@ -1,0 +1,250 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+    font-family: Over There;
+    src: url(Over There.ttf);
+}
+
+@font-face {
+    font-family:airstrikelaser;
+    src: url(airstrikelaser.ttf);
+}
+
+
+@font-face {
+    font-family: airstrike;
+    src: url(airstrike.ttf);
+}
+
+@font-face {
+    font-family:Nexa Light;
+    src: url(Nexa Light.otf);
+}
+
+@font-face {
+    font-family:Nexa Bold;
+    src: url(Nexa Bold.otf);
+}
+
+.vl {
+    
+
+    border-left-style: solid;
+    border-left-width: 2px;
+	margin-left:50px;
+	border-left-color:#74AFAD;
+	border-bottom-style: solid;
+    border-bottom-width: 5px;
+	
+	border-bottom-color:#74AFAD;
+	font-family:Nexa;
+	
+
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+
+
+                  /*footer start*/
+html,body {
+    height:100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+background-color:white;
+}
+
+.contain {
+    height: auto;
+}
+
+.footer {
+background-color:#003333;
+   
+    display: table-row;
+    height: 1px;
+color:white;
+	}
+
+
+.img{
+	height:175px;
+	width:175px; 
+	}
+                           /*footer End*/	
+	
+	.container {
+  position: relative;
+  width: 50%;
+  
+}
+
+.image {
+  display: block;
+  width:100vw;
+  height:46.5vw;
+  
+}
+
+.overlay {
+	opacity:0.2;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100vw;
+  height:0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: Gray;
+  font-size: 3.7vw;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family:Nexa Light;
+}
+.bk{
+	opacity:1;
+	background-color:#74AFAD;'
+	height:40px;
+}
+.header{
+	
+	font-family: Over There;
+	font-size: 2.7vw;
+    color:white;
+    max-width:100%;
+	-webkit-text-stroke: 0vw black;
+	padding-left:30vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+.tagline{
+	margin-left:25vw;
+    font-size: 1.3vw;
+    
+    
+}
+.hover06 center:hover img {
+	-webkit-transform: rotate(15deg) scale(1);
+	transform: rotate(15deg) scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover06 center img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}	
+
+
+.flip-container {
+	perspective: 200vw;
+	
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 20vw;
+	height: 4vw;
+	
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.back {
+	backface-visibility:hidden;
+    font-size:23px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+.front{
+	backface-visibility:hidden;
+    font-size:23px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.orgimg{
+	  border-left-style: solid;
+    border-left-width: 2px;
+	margin-left:35vw;
+	border-left-color:#74AFAD;
+	border-right-style: solid;
+    border-right-width: 2px;
+	margin-right:35vw;
+	border-right-color:#74AFAD;
+	padding:30px;
+}
+

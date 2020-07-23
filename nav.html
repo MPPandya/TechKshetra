@@ -1,0 +1,97 @@
+<html>
+<head>
+  <title>Home</title>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="nav.css">
+   
+   
+  
+ 
+  
+
+  
+  <link rel="icon" href="logo.png" > 
+</head>
+
+
+<body style="background-image:url('r11.jpg');background-size:cover;" >
+		  
+				<!--<div id="navbar">-->
+<nav id="menu-wrap">  
+<ul id="menu">
+    <li><a href="#">Home</a></li>
+    <li>
+        <a href="">Events</a>
+			<ul>
+				<li>
+					<a href="">Technical Events</a>
+					<ul>
+						<li><a href="">Robo Race</a></li>
+						<li><a href="">ConstructionX</a></li>
+						<li><a href="">Chemo Car</a></li>
+						<li><a href="">Mechanical Buzz</a></li>
+						<li><a href="">All Departments</a></li>
+						<li><a href="">IT Computer</a></li>
+						<li><a href="">PPT</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Non Technical Events</a>
+					<ul>
+						<li><a href="">The Lost Secret</a></li>
+						<li><a href="">Big Boss</a></li>
+						<li><a href="">Master Chef</a></li>
+						<li><a href="">Parliament</a></li>
+						<li><a href="">Jungle War</a></li>
+						<li><a href="">Drama</a></li>
+						<li><a href="">Criminal Case</a></li>
+					</ul>				
+				</li>
+				
+				<li>
+					<a href="">Sports</a>
+					<ul>
+						<li><a href="">Unique Cricket(UC)</a></li>
+						<li><a href="">Soccer(Football)</a></li>
+					</ul>				
+				</li>
+            <li><a href="#">Workshop</a></li>
+        </ul>
+    </li>
+		<li><a href="#">Sponsors</a></li>
+		<li><a href="#">Team</a></li>
+		<li><a href="#">About Us</a></li>
+		
+	
+</ul>
+</nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>
+    $(function() {
+		if ($.browser.msie && $.browser.version.substr(0,1)<7)
+		{
+		$('li').has('ul').mouseover(function(){
+			$(this).children('ul').css('visibility','visible');
+			}).mouseout(function(){
+			$(this).children('ul').css('visibility','hidden');
+			})
+		}
+
+		/* Mobile */
+		$('#menu-wrap').prepend('<div id="menu-trigger">Menu</div>');		
+		$("#menu-trigger").on("click", function(){
+			$("#menu").slideToggle();
+		});
+
+		// iPad
+		var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		if (isiPad) $('#menu ul').addClass('no-transition');      
+    });          
+</script>
+
+</body>
+</html>

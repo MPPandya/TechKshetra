@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Over There;
+    src: url(Over There.ttf);
+}
+
+@font-face {
+    font-family:airstrikelaser;
+    src: url(airstrikelaser.ttf);
+}
+
+
+@font-face {
+    font-family: airstrike;
+    src: url(airstrike.ttf);
+}
+
+@font-face {
+    font-family:Nexa Light;
+    src: url(Nexa Light.otf);
+}
+
+@font-face {
+    font-family:Nexa Bold;
+    src: url(Nexa Bold.otf);
+}
+.event{
+	height:15vw;
+	width:16.2vw;
+	margin-left:17px;
+    float:left;
+	
+}
+
+.event:hover{
+	
+	opacity:1;
+
+}
+
+.para{opacity:0
+
+}
+
+.event:hover .para{
+	font-family:Nexa Light;
+	opacity:1;
+text-align:center;
+text-decoration:underline;
+background-color:#e6e6e6;
+width:16.2vw;
+}
+
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 3.7vw;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family:Nexa Light;
+}
+
+.header{
+	font-family: Over There;
+	font-size: 3.8vw;
+	text-align: center;
+	color:white;
+	-webkit-text-stroke: 0.1vw black;
+	height:750px;
+	width:100%;
+	background-color:#386160;
+	padding-top:250px;
+
+}
+
+
+.tagline{
+	margin-left:35vw;
+    font-size: 1.5vw;
+    line-height:4.3vw;
+    
+}
+
+html,body {
+    height:100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+background-color:white;
+}
+
+.contain {
+    height: auto;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+.footer {
+background-color: #003333;
+    display: table-row;
+    height: 1px;
+color:white;
+	}
+
+
+.img{
+	height:175px;
+	width:175px; 
+	}
+
+	
+	

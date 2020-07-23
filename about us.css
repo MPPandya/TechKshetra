@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Over There;
+    src: url(Over There.ttf);
+}
+
+@font-face {
+    font-family:airstrikelaser;
+    src: url(airstrikelaser.ttf);
+}
+
+
+@font-face {
+    font-family: airstrike;
+    src: url(airstrike.ttf);
+}
+
+@font-face {
+    font-family:Nexa Light;
+    src: url(Nexa Light.otf);
+}
+
+@font-face {
+    font-family:Nexa Bold;
+    src: url(Nexa Bold.otf);
+}
+
+
+
+.header{
+	
+	font-family: Over There;
+	font-size: 2.7vw;
+	
+	
+	color:white;
+	max-width:100%;
+
+	
+	-webkit-text-stroke: 1.5px black;
+	padding-left:30vw;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+.tagline{
+	margin-left:25vw;
+    font-size: 1.3vw;
+    
+    
+}
+
+ /*footer start*/
+
+html,body {
+    height:100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+}
+
+.container {
+    height: auto;
+}
+
+.footer {
+background-color:black;
+    display: table-row;
+    height: 1px;
+color:white;
+	}
+
+
+.img{
+	height:175px;
+	width:175px; 
+	}
+                           /*footer End*/	
+	
+	
+
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+
+.vl {
+    
+font-size:20px;
+    border-left-style: solid;
+    border-left-width: 2px;
+	margin-left:50px;
+	border-left-color:red;
+	border-bottom-style: solid;
+    border-bottom-width: 5px;
+	
+	border-bottom-color:red;
+	font-family:Nexa;
+	padding-left:40px;padding-top:10px;padding-bottom:10px;
+
+}
+
+
+
